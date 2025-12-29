@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.console {
+  margin-bottom: 2rem;
+}
+
+.console h2 {
+  background: #ddd;
+  padding: 0.5rem;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  background: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.game img {
+  width: 50px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.game label {
+  flex: 1;
+}
